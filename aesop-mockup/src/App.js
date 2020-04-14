@@ -9,6 +9,7 @@ function App() {
         <h3>Ps.</h3>
         <h2>React</h2>
         <h2> I'm here! </h2>
+        <p> Testing out the connection of our branches.. </p>
       </header>
     </div>
   );
