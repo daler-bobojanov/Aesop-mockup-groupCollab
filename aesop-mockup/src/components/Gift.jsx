@@ -1,4 +1,4 @@
-import React from 'react'
+import React from './node_modules/react'
 import './Gift.css'
 
 export default function Gift() {
@@ -7,7 +7,7 @@ export default function Gift() {
             <div className="leftSide">
                 <div className="leftSide_text">
                     <p>Five mythical Gift Kits</p>
-                    <p>Crafted for gods, mortals, and muses alike, our new Gift Kit <br/> collection makes for inspired gift giving this festive season.</p>
+                    <p>Crafted for gods, mortals, and muses alike, our new Gift Kit <br /> collection makes for inspired gift giving this festive season.</p>
                     <button>Explore seasonal Gift Kits</button>
                 </div>
             </div>

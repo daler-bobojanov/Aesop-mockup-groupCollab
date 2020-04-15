@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Gift from './Components/Gift/Gift';
-import GiftSecond from './Components/Gift_second/Gift';
+import Gift from './components/Gift';
+import GiftSecond from './components/GiftSecond';
 
 function App() {
   return (
     <div className="App">
-        <Gift />
-        <GiftSecond />
+      <Gift />
+      <GiftSecond />
     </div>
   );
 }

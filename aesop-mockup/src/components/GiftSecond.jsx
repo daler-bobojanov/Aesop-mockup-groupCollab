@@ -1,4 +1,4 @@
-import React from 'react'
+import React from './node_modules/react'
 import './Gift.css'
 
 export default function GiftSecond() {
@@ -6,7 +6,7 @@ export default function GiftSecond() {
         <div className='container'>
             <div className="leftSide">
                 <div className="leftSide_text">
-                    <p>An odyssey of gifts, for generous and <br/> inspired giving</p>
+                    <p>An odyssey of gifts, for generous and <br /> inspired giving</p>
                     <ul className='leftSide_text__list'>
                         <li>Seasonal</li>
                         <li>Aesop favorites</li>
