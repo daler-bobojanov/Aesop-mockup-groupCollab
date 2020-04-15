@@ -1,0 +1,45 @@
+* {
+    margin: 20px 10px 0;
+    padding: 0;
+}
+
+.grid-container1{
+    display: grid;
+    width: 100%;
+    margin-top: 15%;
+    grid-template-columns: 24% 25% 25% 25%;
+    gap: 1em;
+    align-items: end;   
+}
+
+.container1-child{
+    align-self: baseline;
+}
+
+.grid-container1 > img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container2{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    margin: 0;
+    padding: 0;
+    gap: 1.1em;
+}
+
+.grid-container2 > div{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 7px;
+}
+
+p, h5{
+    font-family: 'Quicksand', sans-serif;
+    
+}
