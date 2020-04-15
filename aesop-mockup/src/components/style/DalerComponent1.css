@@ -1,0 +1,70 @@
+* {
+    margin: 20px 10px 0;
+    padding: 0;
+}
+
+.wrapper1{
+    display: grid;
+    width: 100%;
+    /* height: 100%; */
+    grid-template-columns:repeat(4, 1fr);
+    gap: 4em;
+    /* border: 1px red solid; */
+    /* width: 100%; */
+    align-items: end;
+    /* margin-top: 100px; */
+    /* grid-template-columns: 25% 25% 25% 15%; */
+    /* width: 100%; */
+}
+
+.wrapper1-child{
+    /* width: 100px;
+    height: 100px; */
+    /* border: 1px black solid; */
+    align-self: baseline;
+}
+
+.wrapper1>img{
+    width: 100%;
+    /* border: 1px blue solid; */
+    /* margin-left: 90px; */
+    padding: 0;
+    margin: 0;
+    /* align-items: end; */
+}
+
+.wrapper2{
+    display: grid;
+    width: 100%;
+    /* height: 100%; */
+    grid-template-columns: 24% 25% 25% 25%;
+    margin: 0;
+    padding: 0;
+    gap: 1.1em;
+    /* border: 1px red solid; */
+    /* width: 100%; */
+    /* align-items: stretch; */
+    /* align-content: end; */
+    /* margin-top: 100px; */
+    /* grid-template-columns: 25% 25% 25% 15%; */
+    /* width: 100%; */
+}
+
+.wrapper2 > div{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    /* justify-self: start; */
+    /* border: 1px red solid; */
+    text-align: center;
+    /* align-self: baseline; */
+    /* line-break: loose; */
+    line-height: 7px;
+    /* grid-column-start: 4; */
+    
+}
+
+p, h5{
+    font-family: 'Quicksand', sans-serif;
+    
+}
