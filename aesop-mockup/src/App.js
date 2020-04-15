@@ -1,15 +1,20 @@
 import React from 'react';
-import './App.css';
-import Gift from './Components/Gift/Gift';
-import GiftSecond from './Components/Gift_second/Gift';
+
+import DalerComponent1 from './components/DalerComponent1';
+import Gift from './components/Gift';
+import GiftSecond from './components/GiftSecond';
+
 
 function App() {
   return (
     <div className="App">
-        <Gift />
-        <GiftSecond />
+      <DalerComponent1 />
+      <Gift />
+      <GiftSecond />
     </div>
   );
 }
 
 export default App;
+
+

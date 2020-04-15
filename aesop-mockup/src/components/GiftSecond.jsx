@@ -1,13 +1,13 @@
-import React from 'react'
-import './Gift.css'
+import React from 'react';
+import './styles/GiftSecond.css';
 
 export default function GiftSecond() {
     return (
         <div className='container'>
             <div className="leftSide">
                 <div className="leftSide_text">
-                    <p>An odyssey of gifts, for generous and <br/> inspired giving</p>
                     <ul className='leftSide_text__list'>
+                        <p>An odyssey of gifts, for generous and <br /> inspired giving</p>
                         <li>Seasonal</li>
                         <li>Aesop favorites</li>
                         <li>Small gestures</li>
