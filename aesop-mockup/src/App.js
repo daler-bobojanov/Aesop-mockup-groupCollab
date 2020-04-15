@@ -1,14 +1,13 @@
 import React from 'react';
 import './App.css';
+import Gift from './Components/Gift/Gift';
+import GiftSecond from './Components/Gift_second/Gift';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello Daler, Daquan, Aleh! Code the shit out of me...</h1>
-        <h3>Ps.</h3>
-        <h2>React</h2>
-      </header>
+        <Gift />
+        <GiftSecond />
     </div>
   );
 }
