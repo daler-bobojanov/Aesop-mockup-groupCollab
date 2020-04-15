@@ -1,4 +1,5 @@
 .container {
+    display: flex;
     width: 100vw;
     height: 50vh;
     border: 2px solid black;
@@ -49,4 +50,10 @@
     background-size: 35px;
     height: 30px;
     width: 30px;
+}
+.rightSide {
+    width: 60%;
+    height: 60%;
+    background-image: url(../../assets/images/Aesop-Gift-Kits-2019-20-Hybris-Range-Page-Secondary-Mid-Desktop-1690x945px.png);
+    background-size: cover;
 }
