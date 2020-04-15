@@ -13,6 +13,10 @@ function Storefinder() {
         <button id='store-button' > Find a nearby store ➝  </button>
         </div>
          <img id='store-images' src={storeImage} alt="stores"/>
+         <div className='adresses' >
+         <p id='bleecker' > Aesop Bleecker street </p>
+         <p id='bleecker-adress' > 341 Bleecker street, New York, NY 10014 </p>
+         </div>
         </div>
     );
 }

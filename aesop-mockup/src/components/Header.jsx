@@ -1,5 +1,4 @@
 import React from 'react';
-import headerImage from '../assets/images/Aesop-Homepage-Banner.jpg'
 import logo from '../assets/images/aesop-logo.png'
 import './style/djComponents.css'
 

@@ -67,7 +67,7 @@ body {
     margin-right: 18vw;
 }
 
-/* store finder css */
+/* store finder comp css */
 
 #store-images {
     width: 100vw;
@@ -117,4 +117,19 @@ body {
 
 #store-button:hover {
     background-color: tan;
+}
+
+.adresses {
+    margin-right: 10vw;
+}
+
+#bleecker {
+    margin-right: 10.5vw;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#bleecker-adress {
+    margin-top: -1vh;
+    font-size: 15px
 }
