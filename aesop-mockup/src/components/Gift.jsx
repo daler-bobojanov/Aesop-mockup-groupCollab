@@ -1,5 +1,5 @@
-import React from './node_modules/react'
-import './Gift.css'
+import React from 'react';
+import './styles/Gift.css';
 
 export default function Gift() {
     return (

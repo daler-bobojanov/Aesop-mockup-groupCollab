@@ -2,6 +2,7 @@
     display: flex;
     width: 100vw;
     height: 50vh;
+    margin-top: 10%;
 }
 .leftSide {
     width: 40%;
@@ -18,7 +19,7 @@
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 
 .leftSide_text > p:nth-child(1) {

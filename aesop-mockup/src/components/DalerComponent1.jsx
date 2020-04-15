@@ -1,5 +1,5 @@
 import React from 'react';
-import './style/DalerComponent1.css';
+import './styles/DalerComponent1.css';
 import Aesop1 from '../assets/images/staple_products/Aesop-Hand-Resurrection-Aromatique-Hand-Wash-500mL-large.png';
 import Aesop2 from '../assets/images/staple_products/Aesop-Body-Resurrection-Aromatique-Hand-Balm-75mL-large.png';
 import Aesop3 from '../assets/images/staple_products/Large-PNG-Aesop-Personal-Deodorant-50mL-large.png';
