@@ -1,0 +1,120 @@
+body {
+    background-image: url('../../assets/images/Aesop-Homepage-Banner.jpg')  ;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* header comp css */
+
+#promo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: white;
+    background-color:#333333;
+    padding: .01vh;
+    font-size: 12px;
+}
+
+#plus {
+    margin-top: 2vh;
+    margin-left: 2vw;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 4vh;
+}
+
+.navbar li {
+    font-size: 14px;
+    margin-left: 1vw;
+}
+
+#nav-linked {
+    text-decoration: none;
+}
+
+#login {
+    margin-left: 75vw;
+}
+
+.info {
+    color: white;
+}
+
+#company-name {
+    margin-right: 85vw;
+    margin-top: 9vh;
+    width: 10vw;
+}
+
+.company-info {
+    margin-top: -8vh;
+    margin-right: 10vw;
+    font-size: 12px;
+}
+
+#sub-info {
+    margin-top: -2vh;
+    margin-right: 18vw;
+}
+
+/* store finder css */
+
+#store-images {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+.store-finder {
+    margin-top: 50vh;
+    margin-bottom: 10vh;
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    margin-right: 75vw;
+    padding: 0vh;
+}
+
+#AD {
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 2.4vw;
+}
+
+#AD-info {
+    margin-top: -7px;
+    font-size: 20px;
+}
+
+#right-side {
+    margin-top: -10vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40vw;
+    padding: 0vh;
+    font-size: 10px;
+}
+
+#store-button {
+    width: 9vw;
+    margin-left: 9.4vw;
+    background: none;
+    height: 3vh;
+    border: gray 1px solid;
+}
+
+#store-button:hover {
+    background-color: tan;
+}
