@@ -1,7 +1,7 @@
 import React from 'react'
 import './Gift.css'
 
-export default function Gift_second() {
+export default function GiftSecond() {
     return (
         <div className='container'>
             <div className="leftSide">

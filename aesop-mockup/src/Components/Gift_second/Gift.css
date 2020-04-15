@@ -24,18 +24,8 @@
 
 .leftSide_text > p:nth-child(1) {
     font-size: 1.6rem;
-    font-weight: 270;
-}
-.leftSide_text > p:nth-child(2) {
-    font-size: 0.8rem;
-    font-weight: 370;
-}
-.leftSide_text > button {
-    height: 3rem;
-    width: 17rem;
-    font-size: 0.8rem;
-    font-weight: 610;
-    background-color: rgba(255, 255, 255, 0.466);
+    font-weight: 280;
+    color: rgba(0, 0, 0, 0.568);
 }
 .leftSide_text__list > li {
     list-style-type: none;
