@@ -1,16 +1,13 @@
 import React from 'react';
+import Header from './components/Header';
+import Storefinder from './components/Storefinder';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Hello Daler, Daquan, Aleh! Code the shit out of me...</h1>
-        <h3>Ps.</h3>
-        <h2>React</h2>
-        <h2> I'm here! </h2>
-        <p> Testing out the connection of our branches.. </p>
-      </header>
+      <Header/>
+      <Storefinder/>
     </div>
   );
 }
