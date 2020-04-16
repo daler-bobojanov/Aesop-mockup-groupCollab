@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <div className='text' >
             <div id='promo' >
-                <h3>Complimentary standard shipping on all orders </h3>
+               <a href=""> <h3>Complimentary standard shipping on all orders </h3> </a>
                 <p id='plus' > + </p>
             </div>
             <a id='nav-linked' href="">
@@ -16,6 +16,7 @@ const Header = () => {
                 <li>Stores</li>
                 <li>Search</li>
                 <li id='login' >Login</li>
+                <li id='cart' > • </li>
             </ul>
             </a>
             <div className='info' >

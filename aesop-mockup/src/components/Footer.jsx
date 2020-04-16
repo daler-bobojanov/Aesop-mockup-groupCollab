@@ -1,4 +1,5 @@
 import React from 'react';
+import chatBox from '../assets/images/chatbox-icon.png';
 
 function Footer() {
     return (
@@ -37,9 +38,12 @@ function Footer() {
                        <a href="https://twitter.com/aesopskincare"> <li>Twitter ↗</li> </a>
                        <a href="https://www.linkedin.com/company/aesop"> <li>LinkedIn ↗</li> </a>
                     </ul>
-                    <div id='geotag' ></div>
+                    <a href=""><img id='chatbox' src={chatBox} alt=""/></a>
+                    <div id='geotag' >
+                        <p id='aesop' > © Aesop </p>
+                       <a href=""> <p id='us' > United States </p> </a>
                     </div>
-                    
+                    </div>
             </div>
         </div>
     );
