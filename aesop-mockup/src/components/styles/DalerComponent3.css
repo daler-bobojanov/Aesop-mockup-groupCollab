@@ -1,0 +1,51 @@
+* {
+    margin: 20px 10px 0;
+    padding: 0;
+}
+
+.grid-container3{
+    display: grid;
+    width: 100%;
+    margin-top: 15%;
+    grid-template-columns: 24% 25% 25% 25%;
+    gap: 3em;
+    align-items: end;   
+}
+
+.container3-child{
+    align-self: baseline;
+}
+
+.grid-container3 > img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.grid-container4{
+    display: grid;
+    width: 100%;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 2.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container4 > div{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    line-height: 7px;
+}
+
+p, h2, h5{
+    font-family: 'Quicksand', sans-serif;
+    
+}
+
+#button {
+    font-weight: bold;
+    float: left;
+    padding-left: 15px;
+}
