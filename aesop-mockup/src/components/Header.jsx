@@ -1,13 +1,13 @@
+
 import React from 'react';
 import logo from '../assets/images/aesop-logo.png';
-import './styles/djComponents.css';
+import './styles/Header.css';
 
 const Header = () => {
     return (
         <div className='text' >
             <div id='promo' >
-                <a href=""> <h3>Complimentary standard shipping on all orders </h3> </a>
-                <p id='plus' > + </p>
+                <a href="">Complimentary standard shipping on all orders</a><span id='plus'>+</span>
             </div>
             <a id='nav-linked' href="">
                 <ul className='navbar' >
@@ -30,5 +30,4 @@ const Header = () => {
     );
 }
 
-export default Header
-
+export default Header;

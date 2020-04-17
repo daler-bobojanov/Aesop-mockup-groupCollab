@@ -11,6 +11,7 @@
     align-items: flex-start;
     width: 40%;
     height: 100%;
+    padding-left: 90px;
 }
 .leftSide_first > p:nth-child(1) {
     font-size: 1.6rem;
@@ -19,6 +20,8 @@
 .leftSide_first > p:nth-child(2) {
     font-size: 0.8rem;
     font-weight: 370;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .leftSide_first > button {
     height: 3rem;

@@ -18,12 +18,12 @@
     flex-flow: column wrap;
     justify-content: flex-start;
     align-items: flex-start;
-    /* margin-left: 10%; */
     text-align: left;
+    padding-left: 90px;
 }
 
-.leftSide_text > p:nth-child(1) {
-    font-size: 1.6rem;
+.leftSide_text__list > p:nth-child(1) {
+    font-size: 1.7rem;
     font-weight: 280;
     color: rgba(0, 0, 0, 0.568);
 }
@@ -33,7 +33,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* margin:10% 0 10% -25%; */
+    margin-top: 30px;
 }
 .rightSide{
     display: flex;

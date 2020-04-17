@@ -22,8 +22,6 @@ const DalerComponent3 = () => {
             <div className='grid-container4'>
                 <div className='container4-child'>
                     <br />
-                    <br />
-                    <br />
                     <p id="button">See all Body   &#8594;</p>
                 </div>
                 <div className='container4-child'>

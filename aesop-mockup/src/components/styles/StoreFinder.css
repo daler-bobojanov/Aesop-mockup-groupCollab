@@ -1,0 +1,77 @@
+/* store finder comp css */
+#imgContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#store-images {
+    width: 96%;
+    margin-top: 10vh;
+}
+
+.store-finder {
+    margin-top: 50vh;
+    margin-bottom: 10vh;
+    
+}
+
+#left-side {
+    display: flex;
+    flex-direction: column;
+    padding-left: 45px;
+}
+
+#AD {
+    font-weight: bold;
+    font-size: 12px;
+    margin-right: 3.2vw;
+    padding-bottom: 10px;
+}
+
+#AD-info {
+    margin-top: -7px;
+    font-size: 20px;
+}
+
+#right-side {
+    margin-top: -4vh;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40vw;
+    padding: 0vh;
+    font-size: 12px;
+}
+
+#right-side >p{
+    padding-left: 132px;
+    padding-bottom: 22px;
+}
+
+#store-button {
+    width: 9vw;
+    margin-left: 6.3vw;
+    background: none;
+    height: 3vh;
+    border: gray 1px solid;
+}
+
+#store-button:hover {
+    background-color: tan;
+}
+
+.adresses {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#bleecker {
+    margin: 30px 30%;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#bleecker-adress {
+    margin: -30px 30%;
+    font-size: 15px
+}

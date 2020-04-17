@@ -11,7 +11,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
+    padding-left: 40px;
+    margin-top: -80px;
 }
 .mainContainer_columns {
     display: grid;
@@ -24,14 +25,21 @@
 .firstColumn_top >p:nth-child(2) {
     font-size: 1.5rem;
     font-weight: 400;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .firstColumn_top >p:nth-child(3) {
     font-weight: 500;
 }
+.firstColumn_bottom{
+    margin-bottom: 30px;
+}
+
 .firstColumn_bottom > p {
     width: 180px;
     position: relative;
     font-weight: 600;
+    
 }
 .firstColumn_bottom > p::after {
     content: '';
@@ -56,7 +64,7 @@
     font-weight: 700;
 }
 .mainContainer_columns > p:nth-child(3) {
-    margin-top: -10%;
+    margin-top: -18%;
 }
 .mainContainer > div:nth-child(3) > img {
     height:40%;
