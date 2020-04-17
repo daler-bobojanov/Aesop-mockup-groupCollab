@@ -11,6 +11,7 @@ import Header from './components/Header';
 import Storefinder from './components/Storefinder';
 import Footer from './components/Footer';
 import './App.css';
+import DalerComponent4 from './components/DalerComponent4';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <DalerComponent3 />
       <Storefinder />
       <GiftThree />
+      <DalerComponent4 />
       <Footer />
     </div>
   );
